@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "MaisonNeueRegular";
+    src: url("../resources/fonts/MaisonNeueMono-Regular.woff2");
+}
+
+.mainpage_topsection
+{
+    background-image: url("../resources/qcclub_logo.png");
+    position:absolute;
+    top:0px;
+    padding-top:25%;
+    align-self:center;
+    left:18%;
+    height:45%;
+    width:70%;
+    background-position: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: logoFade 2.5s;
+}
+
+h1.welcome_header{
+    font-family: "MaisonNeueRegular";
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 55%;
+    padding-left:2%;
+}
+
+h3.welcome_text{
+    font-family: "MaisonNeueRegular";
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    top: 78%;
+    padding-left:2%;
+}
+
+.discord_link{
+    position:absolute;
+    top: 87%;
+    padding-left: 2%;
+}
+
+.discord_img{
+    width: 50px;
+    height:auto;   
+}
+
+body.main{
+    animation: colorFade 1s;
+    background-color: #0c0d21;
+}
+
+@keyframes colorFade{
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color:#0c0d21;
+    }
+}
+
+@keyframes logoFade{
+    0% {
+        opacity: 0;
+        top: 20px;
+    }
+
+    30% {
+        opacity: 0;
+        top: 50px;
+    }
+
+    100%{
+        opacity: 1;
+
+    }
+}
