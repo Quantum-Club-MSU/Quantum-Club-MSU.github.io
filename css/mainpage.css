@@ -8,7 +8,7 @@
     background-image: url("../resources/qcclub_logo.png");
     position:absolute;
     top:0px;
-    padding-top:25%;
+    padding-top:20%;
     align-self:center;
     left:18%;
     height:45%;
@@ -34,12 +34,12 @@ h3.welcome_text{
     color: white;
     font-size: 25px;
     position:absolute;
-    top: 78%;
+    top: 76%;
     padding-left:2%;
     animation: textFade 4s;
 }
 
-.discord_link{
+.social_links{
     position:absolute;
     top: 87%;
     padding-left: 2%;
@@ -69,12 +69,12 @@ body.main{
 @keyframes logoFade{
     0% {
         opacity: 0;
-        top: 10px;
+        top: -10px;
     }
 
     30% {
         opacity: 0;
-        top: 30px;
+        top: 40px;
     }
 
     100%{
@@ -113,7 +113,7 @@ body.main{
 
     100%{
         opacity: 1;
-        top: 78%;
+        top: 76%;
     }
 }
 
@@ -132,4 +132,20 @@ body.main{
         opacity: 1;
         top: 87%;
     }
+}
+
+.website_links{
+    padding-top: 1%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+}
+
+a.weblinks{
+    text-decoration: none;
+    color: white;
+    font-family: 'MaisonNeueRegular';
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
